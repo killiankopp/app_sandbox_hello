@@ -13,6 +13,7 @@ export default {
   name: 'Toto',
   components: {
     Bonne
-  }
+  },
 }
+
 </script>
