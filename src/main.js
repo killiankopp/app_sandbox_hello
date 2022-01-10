@@ -5,5 +5,6 @@ import router from './router'
 import store from './store'
 import axios from 'axios';
 import VueAxios from 'vue-axios'
+import cookie from './plugins/cookie'
 
-createApp(App).use(store).use(router).use(VueAxios, axios).mount('#app')
+createApp(App).use(cookie).use(store).use(router).use(VueAxios, axios).mount('#app')

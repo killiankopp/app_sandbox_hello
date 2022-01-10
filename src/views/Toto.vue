@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="https://storage.googleapis.com/pebble-v-0/img/logos/pebble-color-256.png">
   </div>
-  <Bonne msg="Allez..." data="none" />
+  <Bonne msg="Allez Kiki" data="none" />
 </template>
 
 <script>
