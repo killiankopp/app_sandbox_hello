@@ -14,12 +14,8 @@ export default {
         if(!this.$cookie.get('jwt_cookie')) {
             let data_cookie = new FormData();
             data_cookie.set('cookie', 'generate');
-            data_cookie.set('appCodeName', navigator.appCodeName);
-            data_cookie.set('appVersion', navigator.appVersion);
+            data_cookie.set('appCodeName', navigator.userAgent);
             data_cookie.set('language', navigator.language);
-            data_cookie.set('platform', navigator.platform);
-            data_cookie.set('product', navigator.product);
-            data_cookie.set('productSub', navigator.productSub);
             data_cookie.set('vendor', navigator.vendor);
 
             let xhr_cookie = axios({
